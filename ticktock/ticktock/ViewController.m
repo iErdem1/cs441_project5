@@ -72,5 +72,83 @@
     }
 }
 
+-(void) checkEnd{
+    if(![[_cellValues objectAtIndex:0] isEqualToValue:[NSNumber numberWithInteger:-1]] &&[_cellValues objectAtIndex:0] == [_cellValues objectAtIndex:1] && [_cellValues objectAtIndex:1] == [_cellValues objectAtIndex:2]){
+        NSLog(@"GG");
+        [self winner:[_cellValues objectAtIndex:0]];
+    }
+    else if(![[_cellValues objectAtIndex:3] isEqualToValue:[NSNumber numberWithInteger:-1]] &&[_cellValues objectAtIndex:3] == [_cellValues objectAtIndex:4] && [_cellValues objectAtIndex:4] == [_cellValues objectAtIndex:5]){
+        NSLog(@"GG");
+        [self winner:[_cellValues objectAtIndex:3]];
+    }
+    else if(![[_cellValues objectAtIndex:6] isEqualToValue:[NSNumber numberWithInteger:-1]] &&[_cellValues objectAtIndex:6] == [_cellValues objectAtIndex:7] && [_cellValues objectAtIndex:7] == [_cellValues objectAtIndex:8]){
+        NSLog(@"GG");
+        [self winner:[_cellValues objectAtIndex:6]];
+    }
+    else if(![[_cellValues objectAtIndex:0] isEqualToValue:[NSNumber numberWithInteger:-1]] &&[_cellValues objectAtIndex:0] == [_cellValues objectAtIndex:3] && [_cellValues objectAtIndex:3] == [_cellValues objectAtIndex:6]){
+        NSLog(@"GG");
+        [self winner:[_cellValues objectAtIndex:0]];
+    }
+    else if(![[_cellValues objectAtIndex:1] isEqualToValue:[NSNumber numberWithInteger:-1]] &&[_cellValues objectAtIndex:1] == [_cellValues objectAtIndex:4] && [_cellValues objectAtIndex:4] == [_cellValues objectAtIndex:7]){
+        NSLog(@"GG");
+        [self winner:[_cellValues objectAtIndex:1]];
+    }
+    else if(![[_cellValues objectAtIndex:2] isEqualToValue:[NSNumber numberWithInteger:-1]] &&[_cellValues objectAtIndex:2] == [_cellValues objectAtIndex:5] && [_cellValues objectAtIndex:5] == [_cellValues objectAtIndex:8]){
+        NSLog(@"GG");
+        [self winner:[_cellValues objectAtIndex:2]];
+    }
+    else if(![[_cellValues objectAtIndex:0] isEqualToValue:[NSNumber numberWithInteger:-1]] &&[_cellValues objectAtIndex:0] == [_cellValues objectAtIndex:4] && [_cellValues objectAtIndex:4] == [_cellValues objectAtIndex:8]){
+        NSLog(@"GG");
+        [self winner:[_cellValues objectAtIndex:0]];
+    }
+    else if(![[_cellValues objectAtIndex:2] isEqualToValue:[NSNumber numberWithInteger:-1]] &&[_cellValues objectAtIndex:2] == [_cellValues objectAtIndex:4] && [_cellValues objectAtIndex:4] == [_cellValues objectAtIndex:6]){
+        NSLog(@"GG");
+        [self winner:[_cellValues objectAtIndex:2]];
+    }
+    else{
+        int counter = 0;
+        for(int i= 0; i < 9 ; i++){
+            if(![[_cellValues objectAtIndex:i] isEqualToValue:[NSNumber numberWithInteger:-1]])
+                counter++;
+        }
+        if(counter > 8)
+            [self winner:[NSNumber numberWithInteger:-1]];
+    }
+}
+
+
+-(void) winner:(NSNumber*) value{
+    NSString *result;
+    if([value isEqualToNumber: [NSNumber numberWithInteger:0]]){
+        result =  @"X Wins!";
+        _xScoreVal++;
+    }
+    else if([value isEqualToNumber: [NSNumber numberWithInteger:1]]){
+        result = @"O Wins!";
+        _oScoreVal++;
+    }
+    else
+        result = @"Tie!";
+    
+    [self updateScore];
+    
+    UIAlertController * alert=   [UIAlertController
+                                  alertControllerWithTitle:@"Game Over!!!"
+                                  message:result
+                                  preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* ok = [UIAlertAction
+                         actionWithTitle:@"OK"
+                         style:UIAlertActionStyleDefault
+                         handler:^(UIAlertAction * action)
+                         {
+                             [alert dismissViewControllerAnimated:YES completion:nil];
+                             [self start];
+                         }];
+    
+    [alert addAction:ok];
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
 
 @end
