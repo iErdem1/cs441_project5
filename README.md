@@ -1,4 +1,4 @@
-# Project 5
+# Project 5 XOX Game
 - Binghamton University Spring 2019 CS441 Gaming for Mobile Platform class "???" project.
 
 ## LICENCE
@@ -26,12 +26,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ## Installation for Debian Based GNU/Linux Distros
 - Will be updated...
 - Clone project from Git
-- Use Python version 3.6.x
-- Setup virtualenv <code>virtualenv venv -p python3.6</code>
+- Setup virtualenv <code>virtualenv venv ... </code>
 - Activate virtualenv <code>source venv/bin/activate</code>
-- Run <code>pip install -r requirements.txt</code>
+- Build the code!
+
 
 
 ## Project Description
-- Will be updated...
+- Basic XOX game.
+- Rules and descriptions abot game can be found on-line.
+- Project coded by Objective C on XCode.
 - If you have any questions or curiosities do not hesitate a sending a note via `ihsan@itugnu.org` or `igokce1@binghamton.edu`
