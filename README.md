@@ -1,5 +1,5 @@
 # Project 5 XOX Game
-- Binghamton University Spring 2019 CS441 Gaming for Mobile Platform class "???" project.
+- Binghamton University Spring 2019 CS441 Gaming for Mobile Platform class "Mobile iOS" project.
 
 ## LICENCE
 
