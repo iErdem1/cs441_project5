@@ -1,0 +1,14 @@
+#IDE Files
+.idea/
+
+#VirtualEnvironment
+.venv/
+venv/
+ENV/
+
+#Log Files
+*.log
+
+#Local Directories
+ss/
+_MACOSX/

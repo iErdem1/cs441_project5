@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1800F1EA22583AF100170949 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800F1E922583AF100170949 /* AppDelegate.m */; };
+		1800F1EC22583AF100170949 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1800F1EB22583AF100170949 /* GameScene.sks */; };
+		1800F1EE22583AF100170949 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1800F1ED22583AF100170949 /* Actions.sks */; };
+		1800F1F122583AF100170949 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800F1F022583AF100170949 /* GameScene.m */; };
+		1800F1F422583AF100170949 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800F1F322583AF100170949 /* GameViewController.m */; };
+		1800F1F722583AF100170949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1800F1F522583AF100170949 /* Main.storyboard */; };
+		1800F1F922583AF200170949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1800F1F822583AF200170949 /* Assets.xcassets */; };
+		1800F1FC22583AF200170949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1800F1FA22583AF200170949 /* LaunchScreen.storyboard */; };
+		1800F1FF22583AF200170949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800F1FE22583AF200170949 /* main.m */; };
+		1800F20922583AF300170949 /* ticktockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800F20822583AF300170949 /* ticktockTests.m */; };
+		1800F21422583AF300170949 /* ticktockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800F21322583AF300170949 /* ticktockUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1800F20522583AF300170949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1800F1DD22583AF100170949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1800F1E422583AF100170949;
+			remoteInfo = ticktock;
+		};
+		1800F21022583AF300170949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1800F1DD22583AF100170949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1800F1E422583AF100170949;
+			remoteInfo = ticktock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1800F1E522583AF100170949 /* ticktock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ticktock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1800F1E822583AF100170949 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1800F1E922583AF100170949 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1800F1EB22583AF100170949 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1800F1ED22583AF100170949 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		1800F1EF22583AF100170949 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		1800F1F022583AF100170949 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		1800F1F222583AF100170949 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		1800F1F322583AF100170949 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		1800F1F622583AF100170949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1800F1F822583AF200170949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1800F1FB22583AF200170949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1800F1FD22583AF200170949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1800F1FE22583AF200170949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1800F20422583AF300170949 /* ticktockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ticktockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1800F20822583AF300170949 /* ticktockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ticktockTests.m; sourceTree = "<group>"; };
+		1800F20A22583AF300170949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1800F20F22583AF300170949 /* ticktockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ticktockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1800F21322583AF300170949 /* ticktockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ticktockUITests.m; sourceTree = "<group>"; };
+		1800F21522583AF300170949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1800F1E222583AF100170949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1800F20122583AF300170949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1800F20C22583AF300170949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1800F1DC22583AF100170949 = {
+			isa = PBXGroup;
+			children = (
+				1800F1E722583AF100170949 /* ticktock */,
+				1800F20722583AF300170949 /* ticktockTests */,
+				1800F21222583AF300170949 /* ticktockUITests */,
+				1800F1E622583AF100170949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1800F1E622583AF100170949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1800F1E522583AF100170949 /* ticktock.app */,
+				1800F20422583AF300170949 /* ticktockTests.xctest */,
+				1800F20F22583AF300170949 /* ticktockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1800F1E722583AF100170949 /* ticktock */ = {
+			isa = PBXGroup;
+			children = (
+				1800F1E822583AF100170949 /* AppDelegate.h */,
+				1800F1E922583AF100170949 /* AppDelegate.m */,
+				1800F1EB22583AF100170949 /* GameScene.sks */,
+				1800F1ED22583AF100170949 /* Actions.sks */,
+				1800F1EF22583AF100170949 /* GameScene.h */,
+				1800F1F022583AF100170949 /* GameScene.m */,
+				1800F1F222583AF100170949 /* GameViewController.h */,
+				1800F1F322583AF100170949 /* GameViewController.m */,
+				1800F1F522583AF100170949 /* Main.storyboard */,
+				1800F1F822583AF200170949 /* Assets.xcassets */,
+				1800F1FA22583AF200170949 /* LaunchScreen.storyboard */,
+				1800F1FD22583AF200170949 /* Info.plist */,
+				1800F1FE22583AF200170949 /* main.m */,
+			);
+			path = ticktock;
+			sourceTree = "<group>";
+		};
+		1800F20722583AF300170949 /* ticktockTests */ = {
+			isa = PBXGroup;
+			children = (
+				1800F20822583AF300170949 /* ticktockTests.m */,
+				1800F20A22583AF300170949 /* Info.plist */,
+			);
+			path = ticktockTests;
+			sourceTree = "<group>";
+		};
+		1800F21222583AF300170949 /* ticktockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1800F21322583AF300170949 /* ticktockUITests.m */,
+				1800F21522583AF300170949 /* Info.plist */,
+			);
+			path = ticktockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1800F1E422583AF100170949 /* ticktock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1800F21822583AF300170949 /* Build configuration list for PBXNativeTarget "ticktock" */;
+			buildPhases = (
+				1800F1E122583AF100170949 /* Sources */,
+				1800F1E222583AF100170949 /* Frameworks */,
+				1800F1E322583AF100170949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ticktock;
+			productName = ticktock;
+			productReference = 1800F1E522583AF100170949 /* ticktock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1800F20322583AF300170949 /* ticktockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1800F21B22583AF300170949 /* Build configuration list for PBXNativeTarget "ticktockTests" */;
+			buildPhases = (
+				1800F20022583AF300170949 /* Sources */,
+				1800F20122583AF300170949 /* Frameworks */,
+				1800F20222583AF300170949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1800F20622583AF300170949 /* PBXTargetDependency */,
+			);
+			name = ticktockTests;
+			productName = ticktockTests;
+			productReference = 1800F20422583AF300170949 /* ticktockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1800F20E22583AF300170949 /* ticktockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1800F21E22583AF300170949 /* Build configuration list for PBXNativeTarget "ticktockUITests" */;
+			buildPhases = (
+				1800F20B22583AF300170949 /* Sources */,
+				1800F20C22583AF300170949 /* Frameworks */,
+				1800F20D22583AF300170949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1800F21122583AF300170949 /* PBXTargetDependency */,
+			);
+			name = ticktockUITests;
+			productName = ticktockUITests;
+			productReference = 1800F20F22583AF300170949 /* ticktockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1800F1DD22583AF100170949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ahmed Ihsan Erdem";
+				TargetAttributes = {
+					1800F1E422583AF100170949 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					1800F20322583AF300170949 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 1800F1E422583AF100170949;
+					};
+					1800F20E22583AF300170949 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 1800F1E422583AF100170949;
+					};
+				};
+			};
+			buildConfigurationList = 1800F1E022583AF100170949 /* Build configuration list for PBXProject "ticktock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1800F1DC22583AF100170949;
+			productRefGroup = 1800F1E622583AF100170949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1800F1E422583AF100170949 /* ticktock */,
+				1800F20322583AF300170949 /* ticktockTests */,
+				1800F20E22583AF300170949 /* ticktockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1800F1E322583AF100170949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1800F1F722583AF100170949 /* Main.storyboard in Resources */,
+				1800F1EC22583AF100170949 /* GameScene.sks in Resources */,
+				1800F1F922583AF200170949 /* Assets.xcassets in Resources */,
+				1800F1FC22583AF200170949 /* LaunchScreen.storyboard in Resources */,
+				1800F1EE22583AF100170949 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1800F20222583AF300170949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1800F20D22583AF300170949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1800F1E122583AF100170949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1800F1F122583AF100170949 /* GameScene.m in Sources */,
+				1800F1F422583AF100170949 /* GameViewController.m in Sources */,
+				1800F1FF22583AF200170949 /* main.m in Sources */,
+				1800F1EA22583AF100170949 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1800F20022583AF300170949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1800F20922583AF300170949 /* ticktockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1800F20B22583AF300170949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1800F21422583AF300170949 /* ticktockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1800F20622583AF300170949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1800F1E422583AF100170949 /* ticktock */;
+			targetProxy = 1800F20522583AF300170949 /* PBXContainerItemProxy */;
+		};
+		1800F21122583AF300170949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1800F1E422583AF100170949 /* ticktock */;
+			targetProxy = 1800F21022583AF300170949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1800F1F522583AF100170949 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1800F1F622583AF100170949 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1800F1FA22583AF200170949 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1800F1FB22583AF200170949 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1800F21622583AF300170949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1800F21722583AF300170949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1800F21922583AF300170949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ticktock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ihsanerdem.ticktock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1800F21A22583AF300170949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ticktock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ihsanerdem.ticktock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1800F21C22583AF300170949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ticktockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ihsanerdem.ticktockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ticktock.app/ticktock";
+			};
+			name = Debug;
+		};
+		1800F21D22583AF300170949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ticktockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ihsanerdem.ticktockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ticktock.app/ticktock";
+			};
+			name = Release;
+		};
+		1800F21F22583AF300170949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ticktockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ihsanerdem.ticktockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ticktock;
+			};
+			name = Debug;
+		};
+		1800F22022583AF300170949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ticktockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ihsanerdem.ticktockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ticktock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1800F1E022583AF100170949 /* Build configuration list for PBXProject "ticktock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1800F21622583AF300170949 /* Debug */,
+				1800F21722583AF300170949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1800F21822583AF300170949 /* Build configuration list for PBXNativeTarget "ticktock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1800F21922583AF300170949 /* Debug */,
+				1800F21A22583AF300170949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1800F21B22583AF300170949 /* Build configuration list for PBXNativeTarget "ticktockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1800F21C22583AF300170949 /* Debug */,
+				1800F21D22583AF300170949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1800F21E22583AF300170949 /* Build configuration list for PBXNativeTarget "ticktockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1800F21F22583AF300170949 /* Debug */,
+				1800F22022583AF300170949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1800F1DD22583AF100170949 /* Project object */;
+}
